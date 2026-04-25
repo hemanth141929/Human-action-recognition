@@ -1,0 +1,9 @@
+venv/
+.venv/
+data/
+UCF-101/
+__pycache__/
+.vscode/
+.idea/
+*.avi
+*.mp4
