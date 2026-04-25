@@ -6,7 +6,7 @@ from torchvision import transforms, models
 
 # --- CONFIGURATION ---
 MODEL_PATH = "action_model_ep5.pth" # Use your best epoch file
-TEST_VIDEO = "./data/UCF-101/Biking/v_Biking_g01_c01.avi" # Path to any video
+TEST_VIDEO = "./test_videos/test1.mp4" # Path to any video
 CLASSES = ['ApplyEyeMakeup', 'Archery', 'Basketball', 'Biking', 'Bowling']
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

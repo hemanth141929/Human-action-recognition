@@ -11,7 +11,7 @@ MODEL_PATH = "action_model_ep5.pth" # Your saved model
 CLASSES = ['ApplyEyeMakeup', 'Archery', 'Basketball', 'Biking', 'Bowling']
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 # TEST_VIDEO = "./data/UCF-101/Biking/v_Biking_g01_c01.avi" 
-TEST_VIDEO = 0 # Set to 0 for Webcam, or a path to a video file
+TEST_VIDEO = "./test_videos/test2.mp4" # Set to 0 for Webcam, or a path to a video file
 
 # --- 1. LOAD MODELS ---
 # A. Load Spatial Model (YOLOv8) for Human Tracking
