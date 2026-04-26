@@ -1,9 +1,10 @@
 venv/
 .venv/
 data/
-UCF-101/
+UCF_Crimes/
 __pycache__/
 .vscode/
 .idea/
 *.avi
 *.mp4
+*.pth
